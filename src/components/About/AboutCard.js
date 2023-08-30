@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Vivek Pawar  </span>
             from <span className="purple"> Pune, India.</span>
-            <br />I am an enthusiastic web developer, like to build beautiful websites.
+            <br />I am an enthusiastic frontend developer, like to build beautiful websites.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
