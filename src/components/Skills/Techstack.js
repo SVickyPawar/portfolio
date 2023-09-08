@@ -23,26 +23,33 @@ function Techstack() {
       
       <Col xs={4} md={2} className="tech-icons">
         <DiHtml5 />
+        <p style={{fontSize:"1rem"}}>HTML</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiCss3 />
+        <p style={{fontSize:"1rem"}}>CSS</p>
       </Col>
       
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+        <p style={{fontSize:"1rem"}}>Javascript</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
+        <p style={{fontSize:"1rem"}}>NodeJS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
+        <p style={{fontSize:"1rem"}}>React</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
+        <p style={{fontSize:"1rem"}}>MongoDB</p>
       </Col>
      
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+        <p style={{fontSize:"1rem"}}>Git</p>
       </Col>
      
     </Row>

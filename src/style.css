@@ -608,8 +608,8 @@ button:focus {
 
 .resume-section {
   position: relative !important;
-  padding-top: 110px !important;
-  padding-bottom: 30px !important;
+  padding-top: 120px !important;
+  padding-bottom: 120px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
@@ -744,4 +744,8 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+.skill-type{
+  font-size: 1rem;
 }

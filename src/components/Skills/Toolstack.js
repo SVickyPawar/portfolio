@@ -14,9 +14,11 @@ function Toolstack() {
       
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
+        <p style={{fontSize:"1rem"}}>VS Code</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
+        <p style={{fontSize:"1rem"}}>Postman</p>
       </Col>
       
     </Row>

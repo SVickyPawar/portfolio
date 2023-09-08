@@ -24,6 +24,8 @@ const Contacts = () => {
 							<p>
 								Feel free to <span className="purple">connect </span>with me
 							</p>
+							<p>Email: vickypwar2609@gmail.com</p>
+							<p>Mob : 9011003926</p>
 							<ul className="home-about-social-links">
 								<li className="social-icons">
 									<a

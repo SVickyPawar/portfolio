@@ -27,6 +27,7 @@ function Projects() {
 								role="Build this wesite from scratch to working prototye. Developed signin, signup, homepage and meal plans."
 								stack="TechStack- JavaScript | HTML | CSS"
 								link="https://github.com/SVickyPawar/Freshly-Clone"
+								live="https://freshly-clone-1.netlify.app/"
 							/>
 						</Col>
 
@@ -40,6 +41,7 @@ function Projects() {
 								role="Area of Responsibility: Developed the news page and integrate with frontend. Implemented filter and sorting functionality in it."
 								stack="TechStack- ReactJS | JavaScript | HTML | CSS"
 								link="https://github.com/SVickyPawar/cricket.com"
+								live="https://cricket-com.vercel.app/"
 							/>
 						</Col>
 					</Row>
