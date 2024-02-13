@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
+import { SiExpress, SiTailwindcss } from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
@@ -45,6 +46,14 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
         <p style={{fontSize:"1rem"}}>MongoDB</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <SiExpress />
+        <p style={{fontSize:"1rem"}}>ExpressJS</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <SiTailwindcss />
+        <p style={{fontSize:"1rem"}}>TailwindCSS</p>
       </Col>
      
       <Col xs={4} md={2} className="tech-icons">

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
+import pdf from "../Assets/Vivek_Pawar_resume.pdf";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-scroll";
 import { CgGitFork } from "react-icons/cg";
@@ -28,6 +29,18 @@ function NavBar() {
   }
 
   window.addEventListener("scroll", scrollHandler);
+
+  const handleResumeClick = () => {
+    window.open(pdf, "_blank");
+    // initiate download
+    const link = document.createElement("a");
+    link.href = pdf;
+    const fileName = "Vivek_Pawar_resume.pdf"; // specify the filename here
+    link.setAttribute("download", fileName);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link)
+  };
 
   return (
 		<Navbar
@@ -98,15 +111,6 @@ function NavBar() {
 							</Nav.Link>
 						</Nav.Item>
 
-						<Nav.Item style={{ cursor: "pointer" }}>
-							<Nav.Link
-								as={Link}
-								to="resume"
-								onClick={() => updateExpanded(false)}
-							>
-								<CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-							</Nav.Link>
-						</Nav.Item>
 
 						<Nav.Item style={{ cursor: "pointer" }}>
 							<Nav.Link
@@ -115,6 +119,15 @@ function NavBar() {
 								onClick={() => updateExpanded(false)}
 							>
 								<CgFileDocument style={{ marginBottom: "2px" }} /> Contacts
+							</Nav.Link>
+						</Nav.Item>
+						<Nav.Item style={{ cursor: "pointer" }}>
+							<Nav.Link
+								as={Link}
+								to="resume"
+								onClick={() => {updateExpanded(false);handleResumeClick()}}
+							>
+								<CgFileDocument style={{ marginBottom: "2px" }} /> Resume
 							</Nav.Link>
 						</Nav.Item>
 

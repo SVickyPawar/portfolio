@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
+import vicky from "../../Assets/vicky.jpg";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -19,8 +20,10 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I've always been interested in computers and the mechanism running behind the scene.
-            Passionate to learn new technologies and implement in new projects. I am now eager to secure a role that demand the use of skills gained during my studies.
+              {/* I've always been interested in computers and the mechanism running behind the scene.
+            Passionate to learn new technologies and implement in new projects. I am now eager to secure a role that demand the use of skills gained during my studies. */}
+
+Bringing 10 months of professional experience to the table, frontend development stands out as a forte, focusing on the creation of captivating user interfaces and dynamic web experiences. Proficiency in <b className="purple">React.js, JavaScript, HTML, and CSS</b> enables the crafting of adaptable components and user-centric web pages. <br/><br/> Additionally, a strong understanding of backend technologies such as <b className="purple">Node.js, Express.js, and MongoDB</b> facilitates the development of comprehensive, reliable solutions. Driven by a dedication to continuous learning, an active embrace of emerging technologies serves to propel organizational success.
               {/* <br />I am fluent in classics like
               <i>
                 <b className="purple"> HTML,CSS,Javascript & React. </b>
@@ -32,7 +35,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> 
                 <b className="purple">
                  
-                </b> */}
+                </b> *
               {/* </i>
               <br />
               <br />
@@ -50,10 +53,12 @@ function Home2() {
               </i> */}
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
+          <Col
+            md={4}
+            style={{ paddingTop: "100px", paddingBottom: "50px" }}
+            className="about-img"
+          >
+            <img src={vicky} alt="about" className="img-fluid" />
           </Col>
         </Row>
         {/* <Row>

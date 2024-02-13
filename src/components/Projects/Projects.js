@@ -8,6 +8,7 @@ import jsLogo from "../../Assets/js_logo.png"
 import reactLogo from "../../Assets/react_logo.png";
 import htmlLogo from "../../Assets/html_logo.png";
 import cssLogo from "../../Assets/css_logo.png";
+import simpleStore from "../../Assets/Projects/simpleStore.png";
 
 function Projects() {
 	return (
@@ -53,6 +54,23 @@ function Projects() {
 								htmlLogo={htmlLogo}
 								link="https://github.com/SVickyPawar/cricket.com"
 								live="https://cricket-com.vercel.app/"
+							/>
+						</Col>
+
+						<Col md={4} className="project-card">
+							<ProjectCard
+								imgPath={simpleStore}
+								isBlog={false}
+								title="Simple Store"
+								description="A resource planning web app to get the updates on remaining stock at store. By this user able to pre-order the stocks as per the requirement."
+								role="Area of Responsibility: Developed the whole backend. Involvement in UI development"
+								stack="TechStack- ReactJS | JavaScript | HTML | CSS"
+								reactLogo={reactLogo}
+								jsLogo={jsLogo}
+								cssLogo={cssLogo}
+								htmlLogo={htmlLogo}
+								link="https://github.com/SVickyPawar/SimpleStore"
+								live="https://simple-store-project-hackathon.netlify.app/"
 							/>
 						</Col>
 					</Row>

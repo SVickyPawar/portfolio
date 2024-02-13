@@ -48,10 +48,10 @@ function App() {
           {/* <Route path="*" element={<Navigate to="/"/>} /> */}
 				{/* </Routes>  */}
 				<Home />
-				<About />
+				{/* <About /> */}
 				<Skills />
 				<Projects />
-				<Resume />
+				{/* <Resume /> */}
 				<Contacts />
 				<Footer />
 			</div>
