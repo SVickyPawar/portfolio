@@ -57,7 +57,6 @@ function ResumeNew() {
             variant="primary"
             href={pdf}
             target="_blank"
-            // onClick={handleDownload}
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
