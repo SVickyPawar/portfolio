@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Aboutcard from "./AboutCard";
 // import vicky from "../../Assets/vicky.JPG";
-import vicky from '../../Assets/vicky.jpg'
+import vicky from "../../Assets/vicky_image.jpg"
 
 function About() {
   return (
