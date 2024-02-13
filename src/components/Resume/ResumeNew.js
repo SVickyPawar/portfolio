@@ -11,7 +11,6 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 //const resumeLink =  "https://github.com/SVickyPawar/resume/blob/main/Vivek_Pawar_resume.pdf";
 const resumeLink = "https://raw.githubusercontent.com/SVickyPawar/resume/main/Vivek_Pawar_resume.pdf";
 //const resumeLink =  "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
-
   // "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
 
 function ResumeNew() {
