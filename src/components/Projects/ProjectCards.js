@@ -19,13 +19,8 @@ function ProjectCards(props) {
 					React{<img style={{width:"20px"}} src={props.reactLogo}/>}|
 					JavaScript{<img style={{width:"30px"}} src={props.jsLogo}/>}|
 					HTML{<img style={{width:"15px"}} src={props.htmlLogo}/>} |
-					CSS{<img style={{width:"25px",marginTop:"-5px"}} src={props.cssLogo}/>}
-					
-					
+					CSS{<img style={{width:"25px",marginTop:"-5px"}} src={props.cssLogo}/>}			
 					</Card.Text>
-				{/* <div>
-					<img style={{width:"50px"}} src={props.logos}/>
-				</div> */}
 				<Button variant="primary" href={props.link} target="_blank">
 					<BiLinkExternal /> &nbsp;
 					{props.isBlog ? "View Blog" : "Project"}
